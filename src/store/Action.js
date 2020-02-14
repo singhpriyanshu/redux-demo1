@@ -1,7 +1,7 @@
 import * as actionTypes from './ActionTypes'
 export const changeWishs =()=>{
     return {
-        type:actionTypes.CHANGE_WISHr,
+        type:actionTypes.CHANGE_WISH,
         payload:"romn"
     }
 }

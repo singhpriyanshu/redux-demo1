@@ -7,7 +7,7 @@ const Reducer2=(state=[],action)=>{
     if (action.type==="CHANGE_WISH"){
    return [
        ...state,
-      "BLANK"
+      action.payload
    ]
     }
     return state;
