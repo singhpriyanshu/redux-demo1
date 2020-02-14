@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {connect} from "react-redux"
-import {allnew,changeWish,changeWishs} from './action'
+import {allnew,changeWishs} from './store/Action'
 
 function App(props) {
   console.log(props)

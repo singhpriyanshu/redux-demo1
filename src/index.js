@@ -6,8 +6,8 @@ import * as serviceWorker from './serviceWorker';
 import {createStore,applyMiddleware,compose,combineReducers } from 'redux';
 import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
-import Reducer from './Reducer';
-import Reducer2 from './Reducer2';
+import Reducer from './store/Reducer';
+import Reducer2 from './store/Reducer2';
 
 const mainReducer=combineReducers({
     name: Reducer,
