@@ -11,7 +11,12 @@ export const changeWish =()=>{
         payload:"BLANK"
     }
 }
-
+export const color =()=>{
+    return {
+        type:actionTypes.COLOR,
+        payload:"WHITE"
+    }
+}
 
 
 export const allnew =(name)=>{
@@ -20,7 +25,8 @@ export const allnew =(name)=>{
         .then(res=>res.json())
         .then(res2=>{
             dispatch({ type:actionTypes.CHANGE_NAME,
-                        payload:res2[2].name})
+                        payload:res2[7].name})
         })
     }
     }
+
